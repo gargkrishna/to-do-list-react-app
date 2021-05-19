@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(25, 58, 201);
+}
+#app {
+  background-color: rgb(89, 216, 30);
+  margin: 100px auto;
+  min-height: 500px;
+  width: 400px;
+}
+
+header > input {
+  background-color: rgb(27, 112, 137);
+  border: 0px;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+header > input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+header > input:focus,
+header > button:focus {
+  outline: none;
+}
+
+header > button {
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: yellow;
+  cursor: pointer;
+  font-weight: bolder;
+  color: black;
+}
